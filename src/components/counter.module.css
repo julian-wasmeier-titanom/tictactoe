@@ -1,0 +1,30 @@
+.text {
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.resetButton {
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(184, 48, 48);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50%;
+}

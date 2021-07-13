@@ -1,0 +1,78 @@
+:root {
+  --background-color: #201f1e;
+  --font-color: black;
+}
+
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+  color: --font-color;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  zoom: 2;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.popup button {
+  border: none;
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 10px;
+  height: 60px;
+  width: 100px;
+  cursor: pointer;
+  font-size: medium;
+  font-family: Roboto;
+  font-weight: 600;
+  color: #201f1e;
+}
+
+.popup p {
+  font-size: 23px;
+  color: var(--font-color);
+}
+
+.heading {
+  font-size: 50px;
+  color: var(--font-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #201f1e;
+    --font-color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* --background-color: white;
+    --font-color: black; */
+    --background-color: #201f1e;
+    --font-color: white;
+  }
+}

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.circle {
+  width: 42px;
+  height: 42px;
+  border: 3px solid var(--font-color);
+  border-radius: 50%;
+}
+
+.circleContainer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1.5px solid var(--font-color);
+  border-radius: 5px;
+}
+
+.blue {
+  border: 1.5px solid #7fffd4;
+}
+
+.x {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line1,
+.line2 {
+  height: 3px;
+  width: 50px;
+  background-color: var(--font-color);
+  position: absolute;
+  border-radius: 5px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.noPointer {
+  cursor: default;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.line1 {
+  transform: rotate(45deg);
+}
+
+.line2 {
+  transform: rotate(-45deg);
+}
