@@ -94,13 +94,12 @@ function App() {
   return (
     <>
       <div className={styles.box}>
+        <h1 className={styles.heading}>TIC TAC TOE</h1>
         <Counter
           XCounter={XCounter}
           resetCounter={resetCounter}
           YCounter={YCounter}
         ></Counter>
-
-        <h1 className={styles.heading}>TIC TAC TOE</h1>
         <div className={styles.container}>
           {stateArray.map((item, index) => (
             <FieldItem
