@@ -28,4 +28,6 @@
   border-radius: 5px;
   cursor: pointer;
   height: 50%;
+  color: #201f1e;
+  font-size: bold;
 }
