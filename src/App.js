@@ -17,7 +17,7 @@ function App() {
   const [isTie, setIsTie] = useState(false);
   const [current, setCurrent] = useState("X");
   const [XCounter, setXCounter] = useState(localXCount);
-  const [YCounter, setYCounter] = useState(0);
+  const [YCounter, setYCounter] = useState(localYCount);
 
   useEffect(() => {
     window.localStorage.setItem("XCounter", XCounter);
